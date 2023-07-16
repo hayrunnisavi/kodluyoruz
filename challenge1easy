@@ -1,0 +1,7 @@
+import datetime
+an=datetime.datetime.now()
+buyil=an.year
+x=input("doğum yılını giriniz:")
+x=int(x)
+yas=buyil-x
+print("Siz şu anda ",yas,"yaşındasınız.")
